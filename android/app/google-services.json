@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "122962147922",
+    "project_id": "alert-395b8",
+    "storage_bucket": "alert-395b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:122962147922:android:cb8566391c1d065502bd8b",
+        "android_client_info": {
+          "package_name": "com.example.crimebott"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2UCNNrZFifhIx9KW2qdiJ20yoHrSziTE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
