@@ -1,0 +1,98 @@
+name: crimebott
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  latlong2: ^0.9.0
+  flutter_map: ^6.1.0
+  firebase_auth: ^5.1.1
+  cloud_firestore: ^5.0.2
+  firebase_core: ^3.1.1
+  http: ^1.2.0
+  firebase_database: ^11.0.2
+  firebase_storage: ^12.1.0
+  provider: ^6.1.1
+  # upgrade: ^0.0.8
+  flutter_riverpod: ^2.4.9
+  google_maps_flutter: ^2.5.0
+  google_maps_flutter_web: ^0.5.2
+  image_picker: ^0.8.5+3
+  # geolocator: ^11.0.0
+  geocoding: ^2.0.0
+  flutter_polyline_points: ^2.0.0
+  flutter_typeahead: ^5.2.0
+  dio: ^5.4.1
+  tflite_flutter: ^0.10.4
+  file_picker: ^6.2.0
+
+
+
+
+  
+
+ 
+  
+
+  intl: any
+  geodesy: ^0.10.2
+  camera: ^0.10.6
+  sqflite: ^2.3.3+1
+  flutter_pytorch: ^1.0.1
+  gif: ^2.3.0
+  tflite_v2: ^1.0.0
+  flutter_vision: ^1.1.4
+  flutter_tts: ^4.0.2
+  image: ^4.1.7
+  path_provider: ^2.1.3
+  custom_info_window: ^1.0.1
+  location: ^6.0.2
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  bdd_widget_test: ^1.2.1
+  build_runner: ^2.3.3
+  flutter_driver:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/icons/map-point.png
+    - assets/best-fp16.tflite
+    - assets/background_img.jpg
+    - assets/road.jpg
+    - assets/best.torchscript
+    - assets/labels.txt
+    - assets/first.png
+    - assets/finish.png
+    - assets/fire.png
+    - assets/accident.png
+    - assets/robbery.png
+   
+ # fonts:
+   # - family: MaterialIcons
+    #  fonts:
+     #   - asset: fonts/MaterialIcons-Regular.ttf
+     #   - asset: fonts/MaterialIconsOutlined-Regular.codepoints
+      #  - asset: fonts/MaterialIconsOutlined-Regular.otf
+      #  - asset: fonts/MaterialIconsRound-Regular.codepoints
+      #  - asset: fonts/MaterialIconsRound-Regular.otf
+      #  - asset: fonts/MaterialIconsSharp-Regular.codepoints
+      #  - asset: fonts/MaterialIconsSharp-Regular.otf
+      #  - asset: fonts/MaterialIconsTwoTone-Regular.codepoints
+      #  - asset: fonts/MaterialIconsTwoTone-Regular.otf
+
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
